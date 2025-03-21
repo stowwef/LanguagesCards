@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lexend";
+
+}
+
+body {
+
+    background-color: #766e67;
+
+}
+
+.contenedor {
+
+    /* Flex layout */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    /* Espacio */
+    margin-top: 100px;
+    gap: 15px;
+
+}
+
+.cards {
+
+    width: 250px;
+    height: 350px;
+    background-color: #191616;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #14100e;
+
+    /* Flex-layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.imagen{
+
+    width: 200px;
+    height: 175px;
+
+
+}
+
+.titulo {
+
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+
+.descripcion {
+
+color: #e9dcdc;
+text-align: center;
+max-width: 300px;
+margin: 10px;
+
+}
+    
+.button {
+
+    width: 120px;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    background-color: #fffbfb;
+
+}
+
+.button:hover {
+
+    border: 3px solid white;
+    background-color: #191616;
+    color: #ffffff;
+    
+
+}
